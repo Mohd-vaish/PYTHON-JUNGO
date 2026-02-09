@@ -1,64 +1,93 @@
-x=int(input("enter the first statement"))
-y=int(input("enter the second statement "))
-if x > y :
-   print("x greatest ")
+# x=int(input("enter the first statement"))
+# y=int(input("enter the second statement "))
+# if x > y :
+#    print("x greatest ")
 
-else:
-    print(" y gretest")  
+# else:
+#     print(" y gretest")  
 
-a = int(input("enter the c marks"))
-b = int(input("enter the c marks"))
-c = int(input("enter the c marks"))
-# = int(input("enter the c marks"))
-x=a+b+c
-grad=x/3
-if grad>=90:
-    print("divisin i A")
-elif grad>=75:
-    print("grad is b")
-elif grad>=50:
-    print("grad is c")
-
-
-else :
-    print("fail")
-a = int(input("enter the year"))
-leap =a/4 
-if (leap==0):
-    print("this is leap year")
-else:
-    print("this is not leap year")    
-
-a = int(input("enter the c marks"))
-# b= int(input("enter the c marks"))
+# a = int(input("enter the c marks"))
+# b = int(input("enter the c marks"))
 # c = int(input("enter the c marks"))
-if a <10:
-    print("its single didgit number")
-elif a <100:
-    print("this is double digit")    
-else  :
- print(" whwter is more than two didgit")
-a = int(input("enter the c marks"))
-#b= int(input("enter the c marks"))
-#c = int(input("enter the c marks"))
-if a <20:
-    print(" wether is cold")
-elif a <35:
-    print("weather is warm")    
-else  :
- print(" weather is hot")
+# # = int(input("enter the c marks"))
+# x=a+b+c
+# grad=x/3
+# if grad>=90:
+#     print("divisin i A")
+# elif grad>=75:
+#     print("grad is b")
+# elif grad>=50:
+#     print("grad is c")
 
-a = int(input("enter the c marks"))
-#b= int(input("enter the c marks"))
-#c = int(input("enter the c marks"))
-if a >0:
-    print("number is positive")
-    if a%2==0:
-       print(a,"this is even number")
-    else:
-       print(a,"this odd number")    
-else  :
-    print("this is negative number")
+
+# else :
+#     print("fail")
+# a = int(input("enter the year"))
+# leap =a/4 
+# if (leap==0):
+#     print("this is leap year")
+# else:
+#     print("this is not leap year")    
+
+# a = int(input("enter the c marks"))
+# # b= int(input("enter the c marks"))
+# # c = int(input("enter the c marks"))
+# if a <10:
+#     print("its single didgit number")
+# elif a <100:
+#     print("this is double digit")    
+# else  :
+#  print(" whwter is more than two didgit")
+# a = int(input("enter the c marks"))
+# #b= int(input("enter the c marks"))
+# #c = int(input("enter the c marks"))
+# if a <20:
+#     print(" wether is cold")
+# elif a <35:
+#     print("weather is warm")    
+# else  :
+#  print(" weather is hot")
+
+# a = int(input("enter the c marks"))
+# #b= int(input("enter the c marks"))
+# #c = int(input("enter the c marks"))
+# if a >0:
+#     print("number is positive")
+#     if a%2==0:
+#        print(a,"this is even number")
+#     else:
+#        print(a,"this odd number")    
+# else  :
+#     print("this is negative number")
+# with open(r"C:\Users\Ultra 5\OneDrive\Desktop\filehadndling1.txt", "r") as file1:
+    # content= file1.read()
+    # print(content)
+    # print(file1.readline())
+    # lines =file1.readlines()
+    # print(lines)
+    # count=0
+    # for line in file1:
+    #     print(line)
+    #     count+=1
+    # print("number of student = ",count)    
+    # #writ mode
+
+    # with open (r"C:\Users\Ultra 5\OneDrive\Desktop\filehadndling1.txt","w") as file1:
+    #     file1.write("mohd vsaish siddique ,22, fatehpur \n jamil,22,maharajganj \n saif, 22,maharajganj\n")
+
+    # append mode 
+# with open(r"C:\Users\Ultra 5\OneDrive\Desktop\filehadndling1.txt","a") as file1:
+    # file1.write("mohd osama bin ladain ,23,dhartipur\n")
+
+    # read & write mode (+r)
+with open(r"C:\Users\Ultra 5\OneDrive\Desktop\filehadndling1.txt","r+") as file1:
+    lines  = file1.readlines()
+    # file1.seek(0)
+    # file1.write(data.replace("mohd vaishu,22,ftp","ayan,22,faizabad"))
+    # file1.retucate()
+    lines[0] = lines[0].replace(" mohd osama","khan")
+    file1.seek(0)
+    file1.writelines(lines)
 
 
 

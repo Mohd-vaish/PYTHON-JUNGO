@@ -1,0 +1,6 @@
+file handling
+
+amit,20,delhi
+neha,22,mummbai
+Rahul,19,kokata
+Priya,21,chennai
