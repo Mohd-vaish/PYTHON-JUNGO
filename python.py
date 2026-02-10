@@ -80,16 +80,67 @@
     # file1.write("mohd osama bin ladain ,23,dhartipur\n")
 
     # read & write mode (+r)
-with open(r"C:\Users\Ultra 5\OneDrive\Desktop\filehadndling1.txt","r+") as file1:
-    lines  = file1.readlines()
-    # file1.seek(0)
-    # file1.write(data.replace("mohd vaishu,22,ftp","ayan,22,faizabad"))
-    # file1.retucate()
-    lines[0] = lines[0].replace(" mohd osama","khan")
-    file1.seek(0)
-    file1.writelines(lines)
+# with open(r"C:\Users\Ultra 5\OneDrive\Desktop\filehadndling1.txt","r+") as file1:
+#     lines  = file1.readlines()
+#     # file1.seek(0)
+#     # file1.write(data.replace("mohd vaishu,22,ftp","ayan,22,faizabad"))
+#     # file1.retucate()
+#     lines[0] = lines[0].replace(" mohd osama","khan")
+#     file1.seek(0)
+#     file1.writelines(lines)
+# class Car:
+#     def _init_(self,brand ,color):
+#      self.brand = brand
+#      self.color = color
 
+#     def start(self):
+#         print(f"{self.color}{self.brand}is starting...")
+# car1=Car("tesla","red")
+# car2=Car("BMW","BLACK")   
+ 
+# car1.start()
+# car2.start()
 
+# class Student:
+#     def __init__(self, name, roll):
+#         self.name = name
+#         self.roll = roll
+# s1 = Student("alice",100) 
+# print(s1.name,s1.roll)
+# 
+# 
+#        
+#inheritance 
+# class Animal:
+#     def speak(self):
+#         print("Animal make  sounds")
+
+# class Dog(Animal):
+#     def bark(self):
+#         print("Dog barks")
+# d= Dog()
+# d.speak()
+# d.bark()        
+
+# polymorphisum 
+# car1.start()
+# car2.start()
+
+# class Student:
+#     def __init__(self, name, roll):
+#         self.name = name
+#         self.roll = roll
+# s1 = Student("alice",100) 
+# print(s1.name,s1.roll)
+
+class rectanngles:
+    def __init__(self, length, breadth):
+        self.length = length
+        self.breadth = breadth
+    def area(self) :   
+        return self.length*self.breadth
+s2 = rectanngles("vaish",10,5,)  
+print(f"total area ios",s2.area())     
 
 
 
