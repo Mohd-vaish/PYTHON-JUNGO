@@ -178,13 +178,13 @@ class Mobile:
         return self.__price
 s4 = Mobile(100000)
 print(s4.display())
-# # class Person :
-# #     def __init__(self, age):
-# #         self.__age = age
-# #     def display(self):
-# #         return self.__age
-# # s3 = Person(14)
-# # print(s3.display())
+class Person :
+    def __init__(self, age):
+        self.__age = age
+    def display(self):
+        return self.__age
+s3 = Person(14)
+print(s3.display())
 # # q5
 # # class Student:
 
