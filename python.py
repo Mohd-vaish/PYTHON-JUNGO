@@ -91,15 +91,7 @@
 # #     file1.seek(0)
 # #     file1.writelines(lines)
 # class and object 
-# class Car:
-#     def _init_(self,brand ,color):
-#      self.brand = brand
-#      self.color = color
-
-#     def start(self):
-#         print(f"{self.color}{self.brand}is starting...")
-# car1=Car("tesla","red")
-# car2=Car("BMW","BLACK")   
+#
  
 # car1.start()
 # car2.start()
@@ -152,20 +144,71 @@
 # print(ract.area(15,10))
 
 # encapsulation
-class BankAccount:
-    def __init__(self,owner,balance):
-       self.owner=owner
-       self.__balance = balance
+# class BankAccount:
+#     def __init__(self,owner,balance):
+#        self.owner=owner
+#        self.__balance = balance
 
-    def deposit(self,amount):
-        self.__balance +=amount
-    def get_balance(self):
-        return self.__balance
-acc = BankAccount("alice", 2000)
-acc.deposit(5000)
-print(acc.get_balance())
+#     def deposit(self,amount):
+#         self.__balance +=amount
+#     def get_balance(self):
+#         return self.__balance
+# acc = BankAccount("alice", 2000)
+# acc.deposit(5000)
+# print(acc.get_balance())
+
+class Student:
+#     def __init__(self ,marks):
+        self.__marks = marks
+    def display(self):
+        return self.__marks
+s1 = Student(95)    
+print(s1.display()) 
+class Employee:
+    def __init__(self, salary):
+        self.__salary = salary
+    def display(self):
+        return self.__salary
+s2 = Employee(10000)
+print(s2.display()) 
+class Mobile:
+    def __init__(self, price):
+        self.__price = price
+    def display(self):
+        return self.__price
+s4 = Mobile(100000)
+print(s4.display())
+# # class Person :
+# #     def __init__(self, age):
+# #         self.__age = age
+# #     def display(self):
+# #         return self.__age
+# # s3 = Person(14)
+# # print(s3.display())
+# # q5
+# # class Student:
+
+# #     def __init__(self, age,name,clas):
+# #         self.name = name
+# #         self.__age = age
+# #         self.clas = clas
+# #     def display(self):
+# #         print(self.name,self.__age,self.clas)
+# #         # return  self.namme,self.age, self.clas
+# # s1 = Student(67,"alone",4)
+# # s1.display()
+# # # print(s1.display())
+        
 
 
 
 
+#  class Car:
+# #     def _init_(self,brand ,color):
+# #      self.brand = brand
+# #      self.color = color
 
+# #     def start(self):
+# #         print(f"{self.color}{self.brand}is starting...")
+# # car1=Car("tesla","red")
+# # car2=Car("BMW","BLACK")   
