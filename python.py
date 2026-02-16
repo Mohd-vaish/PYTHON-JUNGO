@@ -221,8 +221,63 @@
 # b = temp
 # print("a=" +a)
 # print("b=" +b)
-length = len("alica bey")
-print("your name length is " +str(length) + " charector")
-new_length = str(length)
-print(type(length))
-print(type(length))
+# length = len("alica bey")
+# print("your name length is " +str(length) + " charector")
+# new_length = str(length)
+# print(type(length))
+# print(type(length))
+# contry ={
+# "india":"new delhi",
+# "palistan":"islamabad",
+# "japan":"tokyo",
+# "nepal":"kathmandu",
+# "united kingdom":"london"
+# }
+
+# print(contry.items())
+# print(contry["india"])=
+# contry["japan"]="islam "
+# print(contry)
+
+# student={
+#     "alice1":23,
+
+#     "alice2":24,
+#     "alice3":35,
+#     "alice4":40,
+#     "alice5":50
+# }
+# print(student)
+# print(student.values())
+# print(student.items())
+# # student["alice4"]="60"
+# print(student.get("alice4"))
+# update={
+#     "class":"6",
+#     "class":"7",
+#     "class":"8",
+#     "class":"10"
+    
+
+# }
+# print(student.update(update))
+# student= [
+#     {"name":"amit","age":20},
+#     {"name":"ahmad","age":20},
+#     {"name":"amool","age":20},
+#     {"name":"amir","age":20}
+# ]
+
+# first = student[0]
+# print(first["name"])
+student={
+    "names":["amit","rahul","ajay"],
+    "ages":[20,22,19]
+}
+# print(st8udent["names"][0])
+# print(st8udent[0]["ages"][0])
+first =student["names"]
+first1 =student["age"]
+# print(first["names"])
+# print(first1["ages"])
+print("name"first[0],"\first1 :",age[0])
