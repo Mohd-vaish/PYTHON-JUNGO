@@ -270,14 +270,18 @@
 
 # first = student[0]
 # print(first["name"])
-student={
-    "names":["amit","rahul","ajay"],
-    "ages":[20,22,19]
-}
-# print(st8udent["names"][0])
-# print(st8udent[0]["ages"][0])
-first =student["names"]
-first1 =student["age"]
-# print(first["names"])
-# print(first1["ages"])
-print("name"first[0],"\first1 :",age[0])
+# student={
+#     "names":["amit","rahul","ajay"],
+#     "ages":[20,22,19]
+# }
+# # print(st8udent["names"][0])
+# # print(st8udent[0]["ages"][0])
+# first =student["names"]
+# first1 =student["age"]
+# # print(first["names"])
+# # print(first1["ages"])
+# print("name"first[0],"\first1 :",age[0])\
+# module.math 
+import math
+
+print(math.log(10,100))
