@@ -261,27 +261,27 @@
 
 # }
 # print(student.update(update))
-# student= [
-#     {"name":"amit","age":20},
-#     {"name":"ahmad","age":20},
-#     {"name":"amool","age":20},
-#     {"name":"amir","age":20}
-# ]
+student= [
+    {"name":"amit","age":20},
+    {"name":"ahmad","age":20},
+    {"name":"amool","age":20},
+    {"name":"amir","age":20}
+]
 
-# first = student[0]
-# print(first["name"])
-# student={
-#     "names":["amit","rahul","ajay"],
-#     "ages":[20,22,19]
-# }
-# # print(st8udent["names"][0])
-# # print(st8udent[0]["ages"][0])
-# first =student["names"]
-# first1 =student["age"]
-# # print(first["names"])
-# # print(first1["ages"])
-# print("name"first[0],"\first1 :",age[0])\
-# module.math 
+first = student[0]
+print(first["name"])
+student={
+    "names":["amit","rahul","ajay"],
+    "ages":[20,22,19]
+}
+# print(st8udent["names"][0])
+# print(st8udent[0]["ages"][0])
+first =student["names"]
+first1 =student["age"]
+# print(first["names"])
+# print(first1["ages"])
+print("name"first[0],"\first1 :",age[0])\
+module.math 
 import math
 
 print(math.log(10,100))
